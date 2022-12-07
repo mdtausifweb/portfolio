@@ -1,0 +1,28 @@
+@media only screen and (max-width: 400px) {
+  .project_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  .projectBox {
+    width: 95%;
+    border: 1px solid black;
+  }
+  .projectBox img {
+    width: 100%;
+  }
+  .techSec{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+  }
+  .tech{
+    width: 20%;
+  }
+}

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+  }
+  .conatctBox {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    /* border: 1px solid black; */
+  }
+  .emailSec {
+    margin: auto;
+    width: 95%;
+    border: 1px solid black;
+  }
+  .emailSec img {
+    width: 10%;
+  }
+  .emailSec span {
+    width: 90%;
+  }
+  .inputs {
+    width: 95%;
+    /* border: 1px solid black; */
+  }
+  input[type="text"],
+  textarea {
+    width: 95%;
+    /* border: 1px solid black; */
+    outline: none;
+  }
+  .subBtn{
+    width: 90%;
+  }
+}

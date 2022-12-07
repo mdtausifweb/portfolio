@@ -1,0 +1,22 @@
+.skill_container{
+    width: 100%;
+}
+@media only screen and (max-width: 400px) {
+    .skill_container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    .skill_box{
+        width: 45%;
+        border: 1px solid black;
+        margin: .5rem;
+        padding: .5rem;
+    }
+    .skill_box img{
+        width: 50%;
+    }
+  }
