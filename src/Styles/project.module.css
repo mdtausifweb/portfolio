@@ -6,23 +6,69 @@
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    margin-top: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
   }
   .projectBox {
     width: 95%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 1rem 1rem 1rem rgb(164, 164, 214);
+    padding: .5rem;
+  }
+  .projectBox h1 {
+    font-size: 2rem;
+    color: blue;
+    font-family: "Roboto";
+    font-weight: 700;
+  }
+  .projectBox h3 {
+    font-size: 1rem;
+    font-family: "Roboto";
+    font-weight: 500;
+  }
+  .projectBox h5 {
+    font-size: 1rem;
+    font-family: "Roboto";
+    font-weight: 300;
   }
   .projectBox img {
     width: 100%;
   }
-  .techSec{
+  .techSec {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     justify-content: center;
   }
-  .tech{
+  .tech {
     width: 20%;
+  }
+  .codesec {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;
+  }
+  .codebtn {
+    width: 33.33%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnSec  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnSec button {
+    width: 47%;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    background-color: blue;
+    border: none;
+    box-shadow: .5rem .55rem .5rem rgb(85, 85, 236);
+  }
+  .btnSec button a{
+    color: white;
   }
 }

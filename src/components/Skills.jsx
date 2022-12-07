@@ -4,14 +4,22 @@ import skillcss from "../Styles/skills.module.css";
 const Skills = () => {
   return (
     <div className={skillcss.skill_container}>
-      {data.skills?.map((item, i) => {
-        return (
-          <div key={i} className={skillcss.skill_box}>
-            <img src={item.imgurl} alt="" />
-            <h4>{item.skill}</h4>
-          </div>
-        );
-      })}
+      <div className={skillcss.skillBox}>
+        <div className={skillcss.skillshead}>
+          <h1>Skills & Tools</h1>
+          <h3>What I know</h3>
+        </div>
+      </div>
+      <div className={skillcss.skillBox}>
+        {data.skills?.map((item, i) => {
+          return (
+            <div key={i} className={skillcss.skill_box}>
+              <img src={item.imgurl} alt="" />
+              <h1>{item.skill}</h1>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };

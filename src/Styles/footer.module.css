@@ -4,12 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blue;
+    padding: .5rem;
+    margin-top: 1rem;
   }
   .footerBox {
     width: 95%;
-    padding: .5rem;
-    margin: .5rem;
+  
     color: white;
-    background-color: blue;
   }
 }

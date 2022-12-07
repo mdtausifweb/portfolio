@@ -24,20 +24,20 @@ const Contact = () => {
       <div className={contactcss.contact}>
         <div className={contactcss.conatctBox}>
           <div className={contactcss.emailSec}>
-            <Link to="/">
+            <Link to="https://portfoliobytausif.netlify.app/">
               <CgProfile />
               <span>Md Tausif</span>
             </Link>
           </div>
           <div className={contactcss.emailSec}>
-            <Link to="/">
+            <Link to="https://github.com/mdtausifwebs">
               <VscGithubAlt />
-              <span>Md Tausif</span>
+              <span>Md Tausif Webs</span>
             </Link>
           </div> <div className={contactcss.emailSec}>
-            <Link to="/">
+            <Link to="https://www.linkedin.com/in/mdtausifweb/">
               <AiOutlineLinkedin />
-              <span>Md Tausif</span>
+              <span>Md Tausif Webs</span>
             </Link>
           </div> <div className={contactcss.emailSec}>
             <Link to="/">

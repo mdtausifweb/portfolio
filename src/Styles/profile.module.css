@@ -46,6 +46,16 @@
     font-size: 0.5rem;
   }
   .contantSec div img {
-    width: 25%;
+    width: 35%;
+  }
+  .contantSec div h2{
+    font-size: .85rem;
+    line-height: 1.2rem;
+  }
+  .contantSec div h2 span{
+    color: blue;
+  }
+  .contantSec div a{
+    border: 1px solid white;
   }
 }

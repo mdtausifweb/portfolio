@@ -2,7 +2,7 @@ import React from "react";
 import profilecss from "../Styles/profile.module.css";
 import banner from "../images/banner.jpg";
 import profileimgs from "../images/img.png";
-import {Link} from "react-router-dom"
+// import { Link } from "react-router-dom";
 const Profile = () => {
   return (
     <div className={profilecss.container}>
@@ -18,16 +18,18 @@ const Profile = () => {
             <h2>Hello, My name is</h2>
           </div>
           <div>
-            <h2>Md Tausif</h2>
+            <h2>
+              <span>Md Tausif</span>
+            </h2>
           </div>
           <div>
             <h2>
               And I'm a Full Stack <span>Web Developer</span>
             </h2>
           </div>
-          <div>
-            <Link to="https://www.canva.com/design/DAFMIdWdS4A/n6Kld7SEr3CTDW7-Ot7-tQ/edit"></Link>
-          </div>
+          {/* <div>
+            <Link to="https://a1e535e0-b8b1-4f97-b8e6-0a1ec03a8794.usrfiles.com/ugd/a1e535_cff917e00553480582decf71750f3263.pdf"></Link>
+          </div> */}
         </div>
       </div>
     </div>

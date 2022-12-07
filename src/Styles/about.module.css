@@ -1,24 +1,46 @@
-
 @media only screen and (max-width: 400px) {
-    .container{
-        width: 100%;
-    }
-    .headSec{
-        width: 100%;
-    }
-    .bodySec{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .imageSec img{
-        width: 80%;
-    }
-    .headSec div{
-        font-size: 2rem;
-    }
-    .textSec{
-        width: 80%;
-    }
-  } 
-  
+  .container {
+    width: 100%;
+  }
+  .headSec {
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Roboto";
+    color: blue;
+    box-shadow: .5rem .5rem .5rem rgb(205, 205, 252);
+  }
+  .bodySec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .imageSec{
+    padding: 1rem;
+
+  }
+  .imageSec img {
+    width: 100%;
+  }
+  .headSec div {
+    font-size: 2rem;
+  }
+  .textSec {
+    width: 100%;
+    padding: 1rem;
+  }
+  .textSec div h2 {
+    font-size: 1.2rem;
+    font-family: "Roboto";
+    font-weight: 700;
+    border-bottom: .25rem solid blue;
+  }
+  .textSec div h2 span {
+    color: blue;
+  }
+  .textSec div h4 {
+    font-size: 1rem;
+    font-family: "Roboto";
+    line-height: 1.5rem;
+    font-weight: 500;
+  }
+}
