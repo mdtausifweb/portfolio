@@ -8,7 +8,7 @@ const Project = () => {
       <div className={projectcss.ChaliContainer}>
         <div className={projectcss.projecthead}>
           <h3> Projects </h3>
-          <h4>i have Done Till now</h4>
+          <h4>I Have Done Till Now</h4>
         </div>
       </div>
       <div className={projectcss.skillsChaliContainer}>
