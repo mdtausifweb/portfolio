@@ -1,12 +1,22 @@
 .container {
-  width: 98%;
+  width: 100%;
   padding: 1rem;
+}
+.contacthead{
+  width: 100%;
+  box-shadow: 1rem 1rem 1rem rgb(211, 208, 208);
+  padding: 1rem;
+
+}
+.contacthead h1{
+  font-size: 1.5rem;
 }
 .contact {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 1rem;
 }
 .conatctBox {
   width: 45%;

@@ -1,3 +1,6 @@
+button{
+  cursor: pointer;
+}
 .skill_container {
   width: 100%;
 }
@@ -7,6 +10,14 @@
 .skillshead{
   box-shadow: 1rem 1rem 1rem rgb(212, 212, 212);
   width: 100%;
+  /* border-top: 1px solid blue; */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.skillshead h4{
+  font-size: 1rem;
 }
 .skillsecond{
   padding-top: 2rem;
@@ -18,13 +29,20 @@
 
 }
 .skill_box{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 23%;
   padding: 1rem;
+  box-shadow: 1rem 1rem 1rem rgb(195, 191, 191);
 }
 .skill_box img{
   width: 40%;
 }
+.skill_box p{
+  color: blue;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 400px) {
   .skill_container {
     width: 100%;
@@ -41,6 +59,7 @@
     margin: 1rem;
   }
   .skillshead {
+    border-top: 1px solid blue;
     width: 100%;
     color: blue;
     box-shadow: 1rem 1rem 1rem rgb(202, 202, 247);

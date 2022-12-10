@@ -1,21 +1,23 @@
 .project_container {
-  width: 98%;
+  width: 99%;
 }
 .ChaliContainer {
   width: 100%;
 }
 .projecthead {
-  width: 98%;
-  margin: 2rem;
-  align-items: center;
-}
-.projecthead {
   box-shadow: 1rem 1rem 1rem rgb(221, 221, 221);
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: .5rem;
+
+}
+.projecthead h4{
+  font-size: 1rem;
 }
 
 .skillsChaliContainer {
-  width: 98%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -30,20 +32,23 @@
   width: 100%;
 }
 .projectBox h1 {
-  font-size: 3rem;
+  font-size: 1rem;
   color: blue;
   font-family: "Roboto";
   font-weight: 700;
+  padding: 1rem;
 }
-.projectBox h3 {
-  font-size: 1.5rem;
+.projectBox p {
+  font-size: 1rem;
   font-family: "Roboto";
   font-weight: 500;
 }
-.projectBox h5 {
+.projectBox h2 {
   font-size: 1rem;
   font-family: "Roboto";
+  color: blue;
   font-weight: 300;
+  padding: .5rem;
 }
 .projectBox img {
   width: 100%;
@@ -61,23 +66,33 @@
 .tech img{
   width: 50%;
 }
+.tech h5{
+  font-size: .7rem;
+  font-weight: 400;
+}
 .codesec {
   width: 98%;
   display: flex;
   justify-content: space-between;
+  padding: 1rem;
+
 }
 .codebtn {
-  width: 33%;
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
+
+
 }
 .btnSec {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  
+
 }
 .btnSec button {
-  width: 47%;
+  width: 100%;
   padding: 0.5rem;
   border-radius: 0.5rem;
   font-size: 1rem;
@@ -85,7 +100,7 @@
   border: none;
   box-shadow: 0.5rem 0.55rem 0.5rem rgb(85, 85, 236);
 }
-.btnSec button a {
+.btnSec button  {
   color: white;
 }
 @media only screen and (max-width: 400px) {

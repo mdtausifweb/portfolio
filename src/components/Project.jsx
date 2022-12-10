@@ -17,8 +17,8 @@ const Project = () => {
             <div key={i} className={projectcss.projectBox}>
               <img src={item.imgurl} alt={item.url} />
               <h1>{item.projectname}</h1>
-              <h3>{item.property}</h3>
-              <h1>{item.tech}</h1>
+              <p>{item.property}</p>
+              <h2>{item.tech}</h2>
               <div className={projectcss.techSec}>
                 {item.TechStack.map((link, j) => {
                   return (
@@ -30,22 +30,20 @@ const Project = () => {
                 })}
               </div>
               <div className={projectcss.codesec}>
-                <div className={projectcss.codebtn}></div>
                 <div className={projectcss.codebtn}>
                   {item.code.map((link, j) => {
                     return (
                       <div key={j} className={projectcss.btnSec}>
-                        <button>
-                          <Link to={link.codelink}>Code</Link>
-                        </button>
-                        <button>
-                          <Link to={link.websitelink}>live</Link>
-                        </button>
+                        <Link to={link.codelink}>
+                          <button>Code</button>
+                        </Link>
+                        <Link to={link.websitelink}>
+                          <button>live</button>
+                        </Link>
                       </div>
                     );
                   })}
                 </div>
-                <div className={projectcss.codebtn}></div>
               </div>
             </div>
           );

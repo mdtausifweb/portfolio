@@ -15,7 +15,7 @@ const Skills = () => {
           return (
             <div key={i} className={skillcss.skill_box}>
               <img src={item.imgurl} alt="" />
-              <h1>{item.skill}</h1>
+              <p>{item.skill}</p>
             </div>
           );
         })}
