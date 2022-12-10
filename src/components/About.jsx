@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div className={aboutcss.container}>
       <div className={aboutcss.headSec}>
-        <h1>About me</h1>
-        <h1>Who am I</h1>
+        <h3>About me</h3>
+        <h4>Who am I</h4>
       </div>
       <div className={aboutcss.bodySec}>
         <div className={aboutcss.imageSec}>
@@ -20,7 +20,7 @@ const About = () => {
             </h2>
           </div>
           <div>
-            <h4>
+            <p>
               In 2020 I have completed my graduation with B.Sc and decided to
               shape my career with coding skills. Now I am a MERN Stack
               Developer having strong knowledge of JavaScript and React. I love
@@ -28,7 +28,7 @@ const About = () => {
               excellent team player with great interpersonal skills. I want to
               associate with a reputed organization and looking to use and
               enhance my skills..
-            </h4>
+            </p>
           </div>
         </div>
       </div>

@@ -7,22 +7,23 @@
     font-size: 1rem;
     font-family: "Roboto";
     color: blue;
-    box-shadow: .5rem .5rem .5rem rgb(205, 205, 252);
+    box-shadow: 0.5rem 0.5rem 0.5rem rgb(205, 205, 252);
   }
   .bodySec {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
-  .imageSec{
+  .imageSec {
     padding: 1rem;
-
   }
   .imageSec img {
     width: 100%;
   }
-  .headSec div {
-    font-size: 2rem;
+  .headSec {
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
   .textSec {
     width: 100%;
@@ -32,12 +33,13 @@
     font-size: 1.2rem;
     font-family: "Roboto";
     font-weight: 700;
-    border-bottom: .25rem solid blue;
+    border-bottom: 0.25rem solid blue;
   }
   .textSec div h2 span {
+    font-size: 1rem;
     color: blue;
   }
-  .textSec div h4 {
+  .textSec div p {
     font-size: 1rem;
     font-family: "Roboto";
     line-height: 1.5rem;

@@ -6,8 +6,8 @@ const Skills = () => {
     <div className={skillcss.skill_container}>
       <div className={skillcss.skillBox}>
         <div className={skillcss.skillshead}>
-          <h1>Skills & Tools</h1>
-          <h3>What I know</h3>
+          <h3>Skills & Tools</h3>
+          <h4>What I know</h4>
         </div>
       </div>
       <div className={skillcss.skillBox}>
