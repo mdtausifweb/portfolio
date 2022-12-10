@@ -1,3 +1,41 @@
+.container {
+  width: 100%;
+}
+.headSec {
+  padding: 1rem;
+  width: 100%;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(205, 205, 252);
+}
+.headSec h3,h4{
+  font-family: "Roboto";
+  font-size: 2rem;
+  color:blue;
+}
+.bodySec{
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.imageSec{
+  width: 100%;
+}
+.textSec{
+  width: 100%;
+}
+.textSec div h2{
+  width: 100%;
+  font-size: 2rem;
+}
+.textSec div h2 span{
+color: blue;
+}
+.textSec div p{
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
 @media only screen and (max-width: 400px) {
   .container {
     width: 100%;

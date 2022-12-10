@@ -27,11 +27,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <User/>
         <Profile />
         <About />
         <Skills />
         <Project />
+        <User/>
         <Contact />
         <Footer />
       </BrowserRouter>

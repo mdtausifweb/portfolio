@@ -1,3 +1,93 @@
+.project_container {
+  width: 98%;
+}
+.ChaliContainer {
+  width: 100%;
+}
+.projecthead {
+  width: 98%;
+  margin: 2rem;
+  align-items: center;
+}
+.projecthead {
+  box-shadow: 1rem 1rem 1rem rgb(221, 221, 221);
+  padding: 1rem;
+}
+
+.skillsChaliContainer {
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.projectBox {
+  width: 32%;
+  box-shadow: 1rem 1rem 1rem rgb(226, 224, 224);
+  padding: 1rem;
+}
+.projectBox img {
+  width: 100%;
+}
+.projectBox h1 {
+  font-size: 3rem;
+  color: blue;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+.projectBox h3 {
+  font-size: 1.5rem;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+.projectBox h5 {
+  font-size: 1rem;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+.projectBox img {
+  width: 100%;
+}
+.techSec {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+.tech {
+  width: 20%;
+}
+.tech img{
+  width: 50%;
+}
+.codesec {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+.codebtn {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+}
+.btnSec {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.btnSec button {
+  width: 47%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: blue;
+  border: none;
+  box-shadow: 0.5rem 0.55rem 0.5rem rgb(85, 85, 236);
+}
+.btnSec button a {
+  color: white;
+}
 @media only screen and (max-width: 400px) {
   .project_container {
     width: 100%;
@@ -10,9 +100,8 @@
   }
   .projectBox {
     width: 95%;
-    /* border: 1px solid black; */
     box-shadow: 1rem 1rem 1rem rgb(164, 164, 214);
-    padding: .5rem;
+    padding: 0.5rem;
   }
   .projectBox h1 {
     font-size: 2rem;
@@ -54,7 +143,7 @@
     display: flex;
     justify-content: space-between;
   }
-  .btnSec  {
+  .btnSec {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -62,13 +151,13 @@
   .btnSec button {
     width: 47%;
     padding: 0.5rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     font-size: 1rem;
     background-color: blue;
     border: none;
-    box-shadow: .5rem .55rem .5rem rgb(85, 85, 236);
+    box-shadow: 0.5rem 0.55rem 0.5rem rgb(85, 85, 236);
   }
-  .btnSec button a{
+  .btnSec button a {
     color: white;
   }
 }

@@ -9,3 +9,8 @@
 a {
   text-decoration: none;
 }
+:root {
+  --firstColor: blue;
+  --secondColor: #111111;
+  --thirdColor: white;
+}

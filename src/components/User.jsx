@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import usercss from "../Styles/user.module.css";
 const User = () => {
   const [sec, setSec] = useState(0);
   const [min, setmin] = useState(0);
@@ -18,11 +18,15 @@ const User = () => {
     }, 1000 * 60 * 60);
   }, [sec, min, hr]);
   return (
-    <div>
-      <div>
-        <span>Hour:{hr}</span>
-        <span>Min:{min}</span>
-        <span>Sec:{sec}</span>
+    <div className={usercss.container}>
+      <div className={usercss.ChildContainer}>
+        <div className={usercss.box}>
+          <span>Hour:{hr}</span>
+          <span>Min:{min}</span>
+          <span>Sec:{sec}</span>
+        </div>
+        <div className={usercss.box}></div>
+        <div className={usercss.box}></div>
       </div>
     </div>
   );

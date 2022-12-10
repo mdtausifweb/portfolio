@@ -1,6 +1,30 @@
 .skill_container {
   width: 100%;
 }
+.skillBox{
+  width: 100%;
+}
+.skillshead{
+  box-shadow: 1rem 1rem 1rem rgb(212, 212, 212);
+  width: 100%;
+}
+.skillsecond{
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+}
+.skill_box{
+  border: 1px solid black;
+  width: 23%;
+  padding: 1rem;
+}
+.skill_box img{
+  width: 40%;
+}
 @media only screen and (max-width: 400px) {
   .skill_container {
     width: 100%;

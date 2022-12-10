@@ -13,7 +13,7 @@
 }
 .contantSec {
   position: absolute;
-  left: 40%;
+  left: 35%;
   bottom: 15%;
   color: white;
 }
@@ -21,6 +21,9 @@
   width: 50%;
 }
 
+.contantSec div h2 span{
+  color: blue;
+}
 @media only screen and (max-width: 400px) {
   .container {
     width: 100%;
@@ -52,9 +55,9 @@
     font-size: .85rem;
     line-height: 1.2rem;
   }
-  .contantSec div h2 span{
+  /* .contantSec div h2 span{
     color: blue;
-  }
+  } */
   .contantSec div a{
     border: 1px solid white;
   }

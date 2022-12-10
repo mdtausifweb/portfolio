@@ -10,7 +10,7 @@ const Skills = () => {
           <h4>What I know</h4>
         </div>
       </div>
-      <div className={skillcss.skillBox}>
+      <div className={(skillcss.skillBox, skillcss.skillsecond)}>
         {data.skills?.map((item, i) => {
           return (
             <div key={i} className={skillcss.skill_box}>

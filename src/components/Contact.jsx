@@ -21,6 +21,9 @@ const Contact = () => {
   };
   return (
     <div className={contactcss.container}>
+      <div className={contactcss.contacthead}>
+        <h1>Contact us</h1>
+      </div>
       <div className={contactcss.contact}>
         <div className={contactcss.conatctBox}>
           <div className={contactcss.emailSec}>
@@ -47,28 +50,28 @@ const Contact = () => {
           </div>
         </div>
         <div className={contactcss.conatctBox}>
-          <div className="inputs">
+          <div className={contactcss.inputs}>
             <input
               type="text"
               placeholder="Enter your Name"
               onChange={(e) => setname(e.target.value)}
             />
           </div>
-          <div className="inputs">
+          <div className={contactcss.inputs}>
             <input
               type="text"
               placeholder="Enter your Email"
               onChange={(e) => setemail(e.target.value)}
             />
           </div>
-          <div className="inputs">
+          <div className={contactcss.inputs}>
             <input
               type="text"
               placeholder="Enter your Subject"
               onChange={(e) => setsubject(e.target.value)}
             />
           </div>
-          <div className="inputs">
+          <div className={contactcss.inputs}>
             <textarea
               type="text"
               placeholder="Enter your Message"
@@ -78,7 +81,7 @@ const Contact = () => {
               rows="2"
             ></textarea>
           </div>
-          <div className="inputs">
+          <div className={contactcss.inputs}>
             <button className={contactcss.subBtn} onClick={submit}>
               Submit
             </button>

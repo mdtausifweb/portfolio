@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <div className={projectcss.project_container}>
       <div className={projectcss.ChaliContainer}>
-      <div className={projectcss.projecthead}>
+        <div className={projectcss.projecthead}>
           <h3> Projects </h3>
           <h4>i have Done Till now</h4>
         </div>

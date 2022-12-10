@@ -1,24 +1,35 @@
 .container {
   width: 100%;
-  background-color: blue;
-  color: white;
+  background-color:var(--firstColor);
 }
+
 .childContainer {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding: .5rem;
 }
 .logoSec {
   width: 20%;
+}
+.logoSec a{
+  color: var(--thirdColor);
+  font-size: 2rem;
 }
 .manuSec {
   width: 30%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+}
+.manuSec a{
+  color: var(--thirdColor);
+  font-size: 1rem;
 }
 .hembergar {
   display: none;
 }
+
 @media only screen and (max-width: 400px) {
   .childContainer {
     padding: 1rem;
